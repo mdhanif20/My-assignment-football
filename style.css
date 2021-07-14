@@ -175,10 +175,8 @@ body {
 
 /* media quary start here  */
 @media(max-width:668px) {
+    /* header area media quary start here  */
     .footer-section{
-        display: none;
-    }
-    .players{
         display: none;
     }
     .website-header {
@@ -201,7 +199,7 @@ body {
     
     .header-title h1 {
         color: #ffffff;
-        font-size: 26px;
+        font-size: 36px;
         font-weight: 700;
         line-height: 40px;
         font-style: normal;
@@ -216,22 +214,21 @@ body {
         height: 259px;
         margin: 374px 16px 61.83px 15px;
     }
-    
-    .header-title button {
-        padding: 10px 14px;
-        font-size: 16px;
-        line-height: 24px;
-        width: 168px;
-        height: 44px;
-        font-weight: 600;
-        background-color: #E02c6D;
-        border: none;
-        color: #fff;
+    /* header area media quary end here  */
+
+    /* player section media quary start here */
+    .players {
+        margin: 12px 15px;
     }
     
+    .all-player {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 27px;
+        grid-column-gap: 30px;
     
-    .header-title button i {
-        width: 16px;
-        height: 14px;
     }
+    
+    /* player section media quary end here */
 }
+
