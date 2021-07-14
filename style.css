@@ -3,7 +3,13 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-
+.album hr, .goal hr{
+    width: 250px;
+    margin-bottom: 50px;
+    padding: 1px;
+    background-color: #2D25A0;
+    border:none;
+}
 /* common css style for full website end here  */
 
 /* header section css start here  */
@@ -113,6 +119,78 @@ body {
 
 /* players section end here */
 
+/* table start from here */
+.goal h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.total-goal{
+    margin-top: 100px;
+}
+.goal{
+    text-align: center;
+    margin-left: 70px;
+}
+.allPerson-table {
+    border-collapse: collapse;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px gray;
+    width: 83%;
+    margin:auto;
+    margin-bottom: 60px; 
+    border-radius: 5px;
+    
+}
+.allPerson-table thead tr {
+    background-color: #2D25A0;
+    color: #ffffff; 
+    text-align: center;
+}
+.allPerson-table th,
+.allPerson-table td {
+    padding: 12px 15px;
+}
+
+.allPerson-table tbody tr:nth-of-type(2n) {
+    background-color: #f3f3f3;
+}
+
+.allPerson-table tbody tr:last-of-type {
+    border-bottom: 2px solid #2D25A0;
+}
+/* table section end here */
+
+/* album section start here  */
+.album {
+    margin: 130px 180px;
+    text-align: center;
+}
+.album h2{
+    font-size: 25px;
+    padding-bottom:0 px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.album hr{
+    width: 380px;
+    margin-bottom: 50px;
+    padding: 1px;
+    background-color: #2D25A0;
+    border:none;
+}
+.all-injuri-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 33px;
+
+}
+.single-injuri-img img{
+    width: 330px;
+    height: 270px;
+}
+/* album section end here  */
 /* footer section style start here  */
 .footer-section {
     margin-bottom: 63px;
@@ -176,9 +254,6 @@ body {
 /* media quary start here  */
 @media(max-width:668px) {
     /* header area media quary start here  */
-    .footer-section{
-        display: none;
-    }
     .website-header {
         background-color: #2D25A0;
         height: 695px;
@@ -218,17 +293,55 @@ body {
 
     /* player section media quary start here */
     .players {
-        margin: 12px 15px;
+        margin: 47px 15px;
     }
     
     .all-player {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 27px;
-        grid-column-gap: 30px;
-    
+        grid-row-gap: 24px;           
     }
     
     /* player section media quary end here */
+    
+    /* table section media query start here  */
+    .goal{
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    .goal h2{
+        font-size: 20px;
+        font-weight: 700;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .album hr, .goal hr{
+        width: 150px;
+        margin-bottom: 50px;
+        padding: 1px;
+        background-color: #2D25A0;
+        border:none;
+    }
+    /* album media query start here  */
+    .album {
+        margin:10px 15px;
+        text-align: center;
+    }
+    .all-injuri-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    
+    }
+    .album h2{
+        margin-left: 10px;
+    }
+     /* album media query start here  */
+    /* footer section media quary start here */              
+    .footer-section {
+        margin-bottom: 63px;
+    }
+     /* footer section media quary end here */
 }
 
