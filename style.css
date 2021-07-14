@@ -1,0 +1,237 @@
+/* common css style for full website start here  */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common css style for full website end here  */
+
+/* header section css start here  */
+.website-header {
+    background-color: #2D25A0;
+    height: 677px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-text {
+    width: 50%;
+}
+
+.header-title {
+    width: 487px;
+    height: 320px;
+    margin: 207px 0px 240px 156px;
+    position: absolute;
+}
+
+.header-title h1 {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    font-style: normal;
+}
+
+.head-banner {
+    width: 50%;
+}
+
+.head-banner img {
+    width: 388px;
+    height: 428px;
+    margin: 153px 141px 186px 102px;
+}
+
+.header-title button {
+    padding: 10px 14px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 168px;
+    height: 44px;
+    font-weight: 600;
+    background-color: #E02c6D;
+    border: none;
+    color: #fff;
+}
+
+.header-title button i {
+    width: 16px;
+    height: 14px;
+}
+
+/* header section css end here  */
+
+/* players section start here */
+.players {
+    margin: 70px 180px;
+}
+
+.all-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+
+}
+
+.single-player {
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 4px gray;
+}
+
+.player-info {
+    padding: 15px;
+}
+
+.player-img {
+    width: 300px;
+    height: 256px;
+}
+
+.about-player {
+    width: 300px;
+    height: 154px;
+}
+
+.about-player h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.about-player p {
+    width: 300px;
+    height: 104px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
+    margin: 0px;
+}
+
+/* players section end here */
+
+/* footer section style start here  */
+.footer-section {
+    margin-bottom: 63px;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-info img {
+    width: 262px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    width: 170px;
+    height: 32px;
+    margin: auto;
+
+}
+
+.icon {
+    margin: 0 7px;
+}
+
+.icon i {
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #E7E7E8;
+}
+
+.footer-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+
+.footer-info span {
+    width: 236px;
+    height: 31px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/* footer section style end here  */
+
+/* all hover effect start here  */
+/* header-button hover iffect start here */
+.header-title button:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+/* header-button hover iffect end here */
+/* all hover effect end here  */
+
+/* media quary start here  */
+@media(max-width:668px) {
+    .footer-section{
+        display: none;
+    }
+    .players{
+        display: none;
+    }
+    .website-header {
+        background-color: #2D25A0;
+        height: 695px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .header-text {
+        width: 100%;
+    }
+    
+    .header-title {
+        width: 278px;
+        height: 138px;
+        margin: 112px 0px 0px 16px;
+        position: absolute;
+    }
+    
+    .header-title h1 {
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 40px;
+        font-style: normal;
+    }
+    
+    .head-banner {
+        width: 100%;
+    }
+    
+    .head-banner img {
+        width: 329px;
+        height: 259px;
+        margin: 374px 16px 61.83px 15px;
+    }
+    
+    .header-title button {
+        padding: 10px 14px;
+        font-size: 16px;
+        line-height: 24px;
+        width: 168px;
+        height: 44px;
+        font-weight: 600;
+        background-color: #E02c6D;
+        border: none;
+        color: #fff;
+    }
+    
+    
+    .header-title button i {
+        width: 16px;
+        height: 14px;
+    }
+}
