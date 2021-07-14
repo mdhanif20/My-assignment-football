@@ -12,6 +12,8 @@ body {
 }
 /* common css style for full website end here  */
 
+
+
 /* header section css start here  */
 .website-header {
     background-color: #2D25A0;
@@ -68,7 +70,10 @@ body {
 
 /* header section css end here  */
 
-/* players section start here */
+
+
+
+/* players section css style start here */
 .players {
     margin: 70px 180px;
 }
@@ -116,10 +121,11 @@ body {
     color: #979797;
     margin: 0px;
 }
+/* players section css style end here */
 
-/* players section end here */
 
-/* table start from here */
+
+/* table section css start from here */
 .goal h2{
     font-size: 25px;
     font-weight: 700;
@@ -159,9 +165,11 @@ body {
 .allPerson-table tbody tr:last-of-type {
     border-bottom: 2px solid #2D25A0;
 }
-/* table section end here */
+/* table section css style end here */
 
-/* album section start here  */
+
+
+/* album section css start here  */
 .album {
     margin: 130px 180px;
     text-align: center;
@@ -190,7 +198,9 @@ body {
     width: 330px;
     height: 270px;
 }
-/* album section end here  */
+/* album section css end here  */
+
+
 /* footer section style start here  */
 .footer-section {
     margin-bottom: 63px;
@@ -238,8 +248,10 @@ body {
     font-size: 23px;
     font-weight: 500;
 }
-
 /* footer section style end here  */
+
+
+
 
 /* all hover effect start here  */
 /* header-button hover iffect start here */
@@ -251,7 +263,13 @@ body {
 /* header-button hover iffect end here */
 /* all hover effect end here  */
 
-/* media quary start here  */
+
+
+
+
+/*----------------------------
+ media quary start here  
+ --------------------------*/
 @media(max-width:668px) {
     /* header area media quary start here  */
     .website-header {
@@ -291,6 +309,7 @@ body {
     }
     /* header area media quary end here  */
 
+
     /* player section media quary start here */
     .players {
         margin: 47px 15px;
@@ -304,6 +323,7 @@ body {
     
     /* player section media quary end here */
     
+
     /* table section media query start here  */
     .goal{
         margin-left: 15px;
@@ -316,6 +336,7 @@ body {
         width: 100%;
         margin-left: 10px;
     }
+     
     .album hr, .goal hr{
         width: 150px;
         margin-bottom: 50px;
@@ -323,6 +344,9 @@ body {
         background-color: #2D25A0;
         border:none;
     }
+    /* table section media query end here  */
+
+
     /* album media query start here  */
     .album {
         margin:10px 15px;
@@ -337,7 +361,9 @@ body {
     .album h2{
         margin-left: 10px;
     }
-     /* album media query start here  */
+     /* album media query end here  */
+
+     
     /* footer section media quary start here */              
     .footer-section {
         margin-bottom: 63px;
